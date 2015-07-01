@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C1021" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Car" representedClassName="Car" syncable="YES">
+        <attribute name="carBrand" optional="YES" attributeType="String" minValueString="0" syncable="YES"/>
+        <attribute name="carColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carModel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carPic" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <relationship name="persons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="cars" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES">
+        <attribute name="personAge" optional="YES" attributeType="Integer 16" minValueString="18" maxValueString="99" defaultValueString="25" syncable="YES"/>
+        <attribute name="personName" attributeType="String" minValueString="3" syncable="YES"/>
+        <attribute name="personSex" attributeType="String" minValueString="1" maxValueString="10" syncable="YES"/>
+        <relationship name="cars" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Car" inverseName="persons" inverseEntity="Car" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="-1206" positionY="-1017" width="128" height="103"/>
+        <element name="Car" positionX="-893" positionY="-1036" width="128" height="118"/>
+    </elements>
+</model>

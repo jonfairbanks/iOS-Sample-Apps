@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A222F21D191A984500CC6AA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A222F21C191A984500CC6AA0 /* Foundation.framework */; };
+		A222F21F191A984500CC6AA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A222F21E191A984500CC6AA0 /* CoreGraphics.framework */; };
+		A222F221191A984500CC6AA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A222F220191A984500CC6AA0 /* UIKit.framework */; };
+		A222F227191A984500CC6AA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A222F225191A984500CC6AA0 /* InfoPlist.strings */; };
+		A222F229191A984500CC6AA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A222F228191A984500CC6AA0 /* main.m */; };
+		A222F22D191A984500CC6AA0 /* ABCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A222F22C191A984500CC6AA0 /* ABCAppDelegate.m */; };
+		A222F230191A984500CC6AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A222F22E191A984500CC6AA0 /* Main.storyboard */; };
+		A222F233191A984500CC6AA0 /* ABCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A222F232191A984500CC6AA0 /* ABCViewController.m */; };
+		A222F235191A984500CC6AA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A222F234191A984500CC6AA0 /* Images.xcassets */; };
+		A222F23C191A984500CC6AA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A222F23B191A984500CC6AA0 /* XCTest.framework */; };
+		A222F23D191A984500CC6AA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A222F21C191A984500CC6AA0 /* Foundation.framework */; };
+		A222F23E191A984500CC6AA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A222F220191A984500CC6AA0 /* UIKit.framework */; };
+		A222F246191A984500CC6AA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A222F244191A984500CC6AA0 /* InfoPlist.strings */; };
+		A222F248191A984500CC6AA0 /* ModalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A222F247191A984500CC6AA0 /* ModalTests.m */; };
+		A222F254191A99F500CC6AA0 /* ABCModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A222F252191A99F500CC6AA0 /* ABCModalViewController.m */; };
+		A222F255191A99F500CC6AA0 /* ABCModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A222F253191A99F500CC6AA0 /* ABCModalViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A222F23F191A984500CC6AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A222F211191A984500CC6AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A222F218191A984500CC6AA0;
+			remoteInfo = Modal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A222F219191A984500CC6AA0 /* Modal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A222F21C191A984500CC6AA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A222F21E191A984500CC6AA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A222F220191A984500CC6AA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A222F224191A984500CC6AA0 /* Modal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Modal-Info.plist"; sourceTree = "<group>"; };
+		A222F226191A984500CC6AA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A222F228191A984500CC6AA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A222F22A191A984500CC6AA0 /* Modal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Modal-Prefix.pch"; sourceTree = "<group>"; };
+		A222F22B191A984500CC6AA0 /* ABCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABCAppDelegate.h; sourceTree = "<group>"; };
+		A222F22C191A984500CC6AA0 /* ABCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABCAppDelegate.m; sourceTree = "<group>"; };
+		A222F22F191A984500CC6AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A222F231191A984500CC6AA0 /* ABCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABCViewController.h; sourceTree = "<group>"; };
+		A222F232191A984500CC6AA0 /* ABCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABCViewController.m; sourceTree = "<group>"; };
+		A222F234191A984500CC6AA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A222F23A191A984500CC6AA0 /* ModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A222F23B191A984500CC6AA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A222F243191A984500CC6AA0 /* ModalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalTests-Info.plist"; sourceTree = "<group>"; };
+		A222F245191A984500CC6AA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A222F247191A984500CC6AA0 /* ModalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalTests.m; sourceTree = "<group>"; };
+		A222F251191A99F500CC6AA0 /* ABCModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCModalViewController.h; sourceTree = "<group>"; };
+		A222F252191A99F500CC6AA0 /* ABCModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCModalViewController.m; sourceTree = "<group>"; };
+		A222F253191A99F500CC6AA0 /* ABCModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ABCModalViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A222F216191A984500CC6AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A222F21F191A984500CC6AA0 /* CoreGraphics.framework in Frameworks */,
+				A222F221191A984500CC6AA0 /* UIKit.framework in Frameworks */,
+				A222F21D191A984500CC6AA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A222F237191A984500CC6AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A222F23C191A984500CC6AA0 /* XCTest.framework in Frameworks */,
+				A222F23E191A984500CC6AA0 /* UIKit.framework in Frameworks */,
+				A222F23D191A984500CC6AA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A222F210191A984500CC6AA0 = {
+			isa = PBXGroup;
+			children = (
+				A222F222191A984500CC6AA0 /* Modal */,
+				A222F241191A984500CC6AA0 /* ModalTests */,
+				A222F21B191A984500CC6AA0 /* Frameworks */,
+				A222F21A191A984500CC6AA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A222F21A191A984500CC6AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A222F219191A984500CC6AA0 /* Modal.app */,
+				A222F23A191A984500CC6AA0 /* ModalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A222F21B191A984500CC6AA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A222F21C191A984500CC6AA0 /* Foundation.framework */,
+				A222F21E191A984500CC6AA0 /* CoreGraphics.framework */,
+				A222F220191A984500CC6AA0 /* UIKit.framework */,
+				A222F23B191A984500CC6AA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A222F222191A984500CC6AA0 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				A222F22B191A984500CC6AA0 /* ABCAppDelegate.h */,
+				A222F22C191A984500CC6AA0 /* ABCAppDelegate.m */,
+				A222F22E191A984500CC6AA0 /* Main.storyboard */,
+				A222F231191A984500CC6AA0 /* ABCViewController.h */,
+				A222F232191A984500CC6AA0 /* ABCViewController.m */,
+				A222F251191A99F500CC6AA0 /* ABCModalViewController.h */,
+				A222F252191A99F500CC6AA0 /* ABCModalViewController.m */,
+				A222F253191A99F500CC6AA0 /* ABCModalViewController.xib */,
+				A222F234191A984500CC6AA0 /* Images.xcassets */,
+				A222F223191A984500CC6AA0 /* Supporting Files */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		A222F223191A984500CC6AA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A222F224191A984500CC6AA0 /* Modal-Info.plist */,
+				A222F225191A984500CC6AA0 /* InfoPlist.strings */,
+				A222F228191A984500CC6AA0 /* main.m */,
+				A222F22A191A984500CC6AA0 /* Modal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A222F241191A984500CC6AA0 /* ModalTests */ = {
+			isa = PBXGroup;
+			children = (
+				A222F247191A984500CC6AA0 /* ModalTests.m */,
+				A222F242191A984500CC6AA0 /* Supporting Files */,
+			);
+			path = ModalTests;
+			sourceTree = "<group>";
+		};
+		A222F242191A984500CC6AA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A222F243191A984500CC6AA0 /* ModalTests-Info.plist */,
+				A222F244191A984500CC6AA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A222F218191A984500CC6AA0 /* Modal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A222F24B191A984500CC6AA0 /* Build configuration list for PBXNativeTarget "Modal" */;
+			buildPhases = (
+				A222F215191A984500CC6AA0 /* Sources */,
+				A222F216191A984500CC6AA0 /* Frameworks */,
+				A222F217191A984500CC6AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Modal;
+			productName = Modal;
+			productReference = A222F219191A984500CC6AA0 /* Modal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A222F239191A984500CC6AA0 /* ModalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A222F24E191A984500CC6AA0 /* Build configuration list for PBXNativeTarget "ModalTests" */;
+			buildPhases = (
+				A222F236191A984500CC6AA0 /* Sources */,
+				A222F237191A984500CC6AA0 /* Frameworks */,
+				A222F238191A984500CC6AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A222F240191A984500CC6AA0 /* PBXTargetDependency */,
+			);
+			name = ModalTests;
+			productName = ModalTests;
+			productReference = A222F23A191A984500CC6AA0 /* ModalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A222F211191A984500CC6AA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ABC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jon Fairbanks";
+				TargetAttributes = {
+					A222F239191A984500CC6AA0 = {
+						TestTargetID = A222F218191A984500CC6AA0;
+					};
+				};
+			};
+			buildConfigurationList = A222F214191A984500CC6AA0 /* Build configuration list for PBXProject "Modal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A222F210191A984500CC6AA0;
+			productRefGroup = A222F21A191A984500CC6AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A222F218191A984500CC6AA0 /* Modal */,
+				A222F239191A984500CC6AA0 /* ModalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A222F217191A984500CC6AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A222F235191A984500CC6AA0 /* Images.xcassets in Resources */,
+				A222F255191A99F500CC6AA0 /* ABCModalViewController.xib in Resources */,
+				A222F227191A984500CC6AA0 /* InfoPlist.strings in Resources */,
+				A222F230191A984500CC6AA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A222F238191A984500CC6AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A222F246191A984500CC6AA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A222F215191A984500CC6AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A222F229191A984500CC6AA0 /* main.m in Sources */,
+				A222F254191A99F500CC6AA0 /* ABCModalViewController.m in Sources */,
+				A222F22D191A984500CC6AA0 /* ABCAppDelegate.m in Sources */,
+				A222F233191A984500CC6AA0 /* ABCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A222F236191A984500CC6AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A222F248191A984500CC6AA0 /* ModalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A222F240191A984500CC6AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A222F218191A984500CC6AA0 /* Modal */;
+			targetProxy = A222F23F191A984500CC6AA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A222F225191A984500CC6AA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A222F226191A984500CC6AA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A222F22E191A984500CC6AA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A222F22F191A984500CC6AA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A222F244191A984500CC6AA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A222F245191A984500CC6AA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A222F249191A984500CC6AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A222F24A191A984500CC6AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A222F24C191A984500CC6AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modal/Modal-Prefix.pch";
+				INFOPLIST_FILE = "Modal/Modal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A222F24D191A984500CC6AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modal/Modal-Prefix.pch";
+				INFOPLIST_FILE = "Modal/Modal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A222F24F191A984500CC6AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Modal.app/Modal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modal/Modal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ModalTests/ModalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A222F250191A984500CC6AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Modal.app/Modal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modal/Modal-Prefix.pch";
+				INFOPLIST_FILE = "ModalTests/ModalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A222F214191A984500CC6AA0 /* Build configuration list for PBXProject "Modal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A222F249191A984500CC6AA0 /* Debug */,
+				A222F24A191A984500CC6AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A222F24B191A984500CC6AA0 /* Build configuration list for PBXNativeTarget "Modal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A222F24C191A984500CC6AA0 /* Debug */,
+				A222F24D191A984500CC6AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A222F24E191A984500CC6AA0 /* Build configuration list for PBXNativeTarget "ModalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A222F24F191A984500CC6AA0 /* Debug */,
+				A222F250191A984500CC6AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A222F211191A984500CC6AA0 /* Project object */;
+}

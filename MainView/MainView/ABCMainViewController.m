@@ -1,0 +1,41 @@
+//
+//  ABCMainViewController.m
+//  MainView
+//
+//  Created by Fairbanks, Jon on 5/5/14.
+//  Copyright (c) 2014 Jon Fairbanks. All rights reserved.
+//
+
+#import "ABCMainViewController.h"
+
+@interface ABCMainViewController ()
+
+@end
+
+@implementation ABCMainViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)changeLabel {
+    self.Label.text = @"Hello World!";
+}
+@end
